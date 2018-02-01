@@ -8976,17 +8976,18 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 //* MY STYLES *//  
+
 a {
   text-decoration: none;
 }
-header{
+header, footer{
   background-color: palevioletred;
   color:#fff;
   padding: 10px 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-header h1{
-  font-size: 30px;
+  h1{
+  font-size: 35px;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
 }
@@ -8998,8 +8999,9 @@ header nav a{
   color:#fff;
   margin-left: 20px;
   display: inline-block;
-  padding:10px 15px;
+  padding:15px 20px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 header nav a:hover{
   background: #EAABBF;
@@ -9018,31 +9020,59 @@ header nav a:hover{
     margin: 0 0 2px 0;
     border-radius: 10px;
   }
-  hader h1{
+  header h1{
     padding: 0 0 10px 0;
   }
 }
 
 .main-image{
-  background: url("darkpink.jpg");
+  background: url("f1.jpg");
   background-size: cover;
-  color:#fff;
+  color:white;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 100px;
   padding-bottom: 30px;
   font-family: 'Karma', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 1.7;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 3px rgba(0,0,0, 0.6);
   margin-bottom: 20px;
   
 }
-.main-image .title{
-  font-size: 45px;
-  font-weight: 600;
-  margin: 0 0 20px 0;
-  font-family: 'Rokkitt', serif;
+.title{
+  font-size: 60px;
+  font-weight: 700;
   
 }
-//* Video *//
+
+
+iframe, img{
+  max-width: 100%;
+
+}
+.box{
+  background: rgba(255, 230, 234, .8);
+  border-radius: 10px;
+  padding: 20px;
+  color:black;
+  margin-top: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.box h2{
+  margin:17px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+body{
+  background:url(pink8.jpg);
+  
+}
+.page-footer{
+  text-align: center;
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
