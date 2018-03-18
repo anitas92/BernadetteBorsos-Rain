@@ -8986,6 +8986,12 @@ header, footer{
   padding: 10px 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+footer{
+  position: relative;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
   h1{
   font-size: 35px;
   font-family: 'Orbitron', sans-serif;
